@@ -19,7 +19,7 @@ const paragraphs = [
   "<div class='ending-text'>Dan akhirnya...<br><br><em>Terima kasih sudah pernah menjadi bagian dari hidupku.</em><br><br><strong>Semoga kita bisa terus menulis cerita baru, bersama-sama.</strong> </div>",
 
   // Judul lagu
-  "<div class='ending-text' style='font-size: 1.2rem; text-align: center; margin-top: 2rem;'>🎵 Hindia – <em>Everything You Are</em></div>",
+  "<div class='ending-text' style='font-size: 1.2rem; text-align: center; margin-top: 2rem;'>🎵 Hindia – <em>Everything u are</em></div>",
 
   //  Lirik full + scrollable
   `<div class="lyrics-box">
@@ -146,7 +146,7 @@ musicBtn.addEventListener("click", () => {
     musicBtn.textContent = "▶ Musik";
   } else {
     music.play();
-    musicBtn.textContent = "⏸ Musik";
+    musicBtn.textContent = "▌▌ Musik";
   }
   isPlaying = !isPlaying;
 });
